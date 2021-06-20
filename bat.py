@@ -277,7 +277,7 @@ while 1 == 1:
                 time.sleep(2)
                 win32.click("Qt5QWindowIcon", "碧蓝航线 - MuMu模拟器")
                 test = win32.img("Qt5QWindowIcon", "碧蓝航线 - MuMu模拟器", "./wenhao.jpg")
-                if (test < 0.5):
+                if (test < 0.6):
                     win32.click("Qt5QWindowIcon", "碧蓝航线 - MuMu模拟器")
                     time.sleep(1)
                     wei = True
